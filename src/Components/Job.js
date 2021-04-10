@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import { Badge, Button, Card, Collapse } from "react-bootstrap";
 import ReactMarkdown from "react-markdown";
-
+import "./SearchForm.css";
 export default function Job({ job }) {
   const [open, setOpen] = useState(false);
   return (
     <Card className="mb-4">
-      <Card.Body>
+      <Card.Body className=" details-form">
         <div className="d-flex justify-content-between">
           <div>
             <Card.Title>
@@ -36,7 +36,7 @@ export default function Job({ job }) {
         <Card.Text>
           <Button
             onClick={() => setOpen((prevOpen) => !prevOpen)}
-            variant="primary"
+            variant="primary" className="view-show-btn"
           >
             {open ? 'Hide Details': 'View Details'}
           </Button>

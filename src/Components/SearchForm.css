@@ -1,0 +1,28 @@
+.input-box {
+  border-radius: 37px !important;
+  box-shadow: none !important;
+  text-align: center;
+  transition: 0.9s linear;
+}
+
+.input-box:hover {
+  -webkit-box-shadow: 10px 10px 13px -6px rgba(0, 0, 0, 0.57) !important;
+  -moz-box-shadow: 10px 10px 13px -6px rgba(0, 0, 0, 0.57) !important;
+  box-shadow: 10px 10px 13px -6px rgba(0, 0, 0, 0.57) !important;
+}
+.view-show-btn {
+  box-shadow: none !important;
+  background: white !important;
+  color: black !important;
+}
+
+.view-show-btn:hover {
+  -webkit-box-shadow: 10px 15px 24px -7px rgba(0, 0, 0, 0.28) !important;
+  -moz-box-shadow: 10px 15px 24px -7px rgba(0, 0, 0, 0.28) !important;
+  box-shadow: 10px 15px 24px -7px rgba(0, 0, 0, 0.28) !important;
+}
+.details-form:hover{
+  -webkit-box-shadow: 29px 26px 229px -37px rgba(151,200,237,0.46) !important;
+  -moz-box-shadow: 29px 26px 229px -37px rgba(151,200,237,0.46) !important;
+  box-shadow: 29px 26px 229px -37px rgba(151,200,237,0.46) !important;
+}
